@@ -2,6 +2,8 @@ import './Button.css'
 
 export default function Button({ placeholder, link }) {
   return (
-    <a href={link}>{placeholder}</a>
+    <a target="_blank" className='button' href={link}>
+      {placeholder}
+    </a>
   );
 };
