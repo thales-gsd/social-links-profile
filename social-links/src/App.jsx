@@ -1,8 +1,8 @@
 import './App.css'
-import { Card } from './components/Card/Card';
+import Card from './components/Card/Card';
 
-export function App() {
+export default function App() {
   return (
-    <></>
+    <Card />
   );
 };
